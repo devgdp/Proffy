@@ -1,0 +1,8 @@
+// Validar se há dados 
+    const isNotEmpty = Object.keys(data).length > 0
+    if(isNotEmpty){
+    //Convertendo os dados numericos para String
+        data.subject = getSubject(data.subject)
+    // Adicionar os dados a lista de proffys
+        proffys.push(data)
+    }
